@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8e24e56-da50-48e7-9bbb-0df3ad101d9a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/waffles/_form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/waffles/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/widgets_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/widget.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/index.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/widgets/show.json.jbuilder" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20140707111715_create_widgets.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4W/4WbiVAWREoC2_JuMD8VjZoWcD_lToZb0shFB9YdO6_0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4W/4WbiVAWREoC2_JuMD8VjZoWcD_lToZb0shFB9YdO6_0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8y/8yPx48TCuwbRwW9FOgTa-UK6ks4IiVIrW5QtXrp73ug.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8y/8yPx48TCuwbRwW9FOgTa-UK6ks4IiVIrW5QtXrp73ug.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/GH/GHxeIu2uELmvJF69l9HIru_yuIB_wbwUUbLeM_z3LT8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/GH/GHxeIu2uELmvJF69l9HIru_yuIB_wbwUUbLeM_z3LT8.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jd/JdYIMVLM3ZnM7WIp2kR-ba00H6jWJ5343Zrqv-ZX0wU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jd/JdYIMVLM3ZnM7WIp2kR-ba00H6jWJ5343Zrqv-ZX0wU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LO/LOIw_QrLu6EqRv2po1AhlmvJ5T0AcIZuJV0rK15RRx0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/LO/LOIw_QrLu6EqRv2po1AhlmvJ5T0AcIZuJV0rK15RRx0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mu/MuwHWsAi9f7tTe3FjHKL_iqu5JAa3h2tcwv4Bxrr_gI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Mu/MuwHWsAi9f7tTe3FjHKL_iqu5JAa3h2tcwv4Bxrr_gI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O8/O8akbUwAbmIKY-AhITimq-JDQ6IgsO3Hvq2v5etufFw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/O8/O8akbUwAbmIKY-AhITimq-JDQ6IgsO3Hvq2v5etufFw.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wl/WlF3uAR-n0r3ufsL_Z5PzGMcVd-zCYkTXfNocvCfyNU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wl/WlF3uAR-n0r3ufsL_Z5PzGMcVd-zCYkTXfNocvCfyNU.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y-/Y-icbsI58ZwyAGjppedwAYx0KOerJF56sMEoKSfhjMI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y-/Y-icbsI58ZwyAGjppedwAYx0KOerJF56sMEoKSfhjMI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cS/cS_cKOMh5zxwhgpjiluq5_Lq2qxMEB_JcX2NsepCSLI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/cS/cS_cKOMh5zxwhgpjiluq5_Lq2qxMEB_JcX2NsepCSLI.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eM/eM69rKrkZBx6027CY1wZMRUrRTMdWfq_Y5sXf4-VbJo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eM/eM69rKrkZBx6027CY1wZMRUrRTMdWfq_Y5sXf4-VbJo.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gi/giPVaZDnARiCmEMgsu5Y9AALJjP4Cc30Fz1DzBdepJ8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gi/giPVaZDnARiCmEMgsu5Y9AALJjP4Cc30Fz1DzBdepJ8.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tP/tPF6H9NRpGO3whu2y5_e_R_1EACKdCwu5437D83qJT0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tP/tPF6H9NRpGO3whu2y5_e_R_1EACKdCwu5437D83qJT0.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
-    </list>
+    <list default="true" id="e8e24e56-da50-48e7-9bbb-0df3ad101d9a" name="Default" comment="" />
     <ignored path="Ruby-on-Rails.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -69,10 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/waffles/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13953489">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/waffles/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
               <folding />
             </state>
@@ -780,16 +753,16 @@
       <workItem from="1488376022013" duration="743000" />
       <workItem from="1488383394443" duration="10000" />
       <workItem from="1488383412926" duration="13875000" />
-      <workItem from="1488400710276" duration="4953000" />
+      <workItem from="1488400710276" duration="5064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21880000" />
+    <option name="totallyTimeSpent" value="21991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -991,14 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/waffles/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13953489">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/waffles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1011,6 +976,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/waffles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13953489">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
