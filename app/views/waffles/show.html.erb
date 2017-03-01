@@ -1,0 +1,12 @@
+<p>
+    <strong>Nazwa:</strong>
+    <%= @waffle.name %>
+</p>
+
+<p>
+    <strong>Cena:</strong>
+    <%= @waffle.price %>
+</p>
+
+<%= link_to 'Wróć', waffles_path %>
+<%= link_to 'Edytuj', edit_waffle_path(@waffle) %>
