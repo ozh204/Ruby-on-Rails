@@ -1,0 +1,27 @@
+<h1>Gofry</h1>
+
+<%= link_to 'Nowy gofr', new_waffle_path %>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th class="col-md-3">Nazwa</th>
+            <th class="col-md-2">Cena</th>
+            <th class="col-md-1" colspan="3"></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <% @waffles.each do |w| %>
+            <tr>
+                <td><%= w.name %></td>
+                <td><%= w.price %></td>
+                <td><%= link_to 'Szczegóły', waffle_path(w) %></td>
+                <td><%= link_to 'Edytuj', edit_waffle_path(w) %></td>
+                <td><%= link_to 'Usuń', waffle_path(w),
+                        method: :delete,
+                        data: { confirm: 'Czy napewno chcesz usunąć tego gofra?' } %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
