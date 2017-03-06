@@ -9882,3 +9882,2207 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/users" for 127.0.0.1 at 2017-03-06 17:43:54 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 220ms (Views: 209.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-06 17:43:55 +0100
+Started GET "/login" for 127.0.0.1 at 2017-03-06 17:43:59 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (65.8ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `signup_path' for #<#<Class:0x007faed80213c0>:0x007faed8020218>):
+    14:         <%= f.submit "Log in", class: "btn btn-primary" %>
+    15:         <% end %>
+    16: 
+    17:         <p>Nowy? <%= link_to "Zarejestruj się!", signup_path %></p>
+    18:     </div>
+    19: </div>
+  
+app/views/sessions/new.html.erb:17:in `_app_views_sessions_new_html_erb__3818405198649487858_70194462527020'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+Started GET "/login" for 127.0.0.1 at 2017-03-06 17:45:33 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (52.9ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `signup_path' for #<#<Class:0x007faef00f7818>:0x007faef00f6670>):
+    14:         <%= f.submit "Log in", class: "btn btn-primary" %>
+    15:         <% end %>
+    16: 
+    17:         <p>Nowy? <%= link_to "Zarejestruj się!", signup_path %></p>
+    18:     </div>
+    19: </div>
+  
+app/views/sessions/new.html.erb:17:in `_app_views_sessions_new_html_erb__3818405198649487858_70194606662380'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.9ms)
+Started GET "/signup" for 127.0.0.1 at 2017-03-06 17:47:58 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [22 times] (4.7ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.2ms)
+Started GET "/signup" for 127.0.0.1 at 2017-03-06 17:52:25 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.5ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (3.9ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.1ms)
+Started GET "/signup" for 127.0.0.1 at 2017-03-06 17:52:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (3.8ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.8ms)
+Started GET "/signup" for 127.0.0.1 at 2017-03-06 17:52:33 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (3.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.2ms)
+Started GET "/signup" for 127.0.0.1 at 2017-03-06 17:52:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (5.2ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.5ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (18.2ms)
+Started GET "/signup" for 127.0.0.1 at 2017-03-06 17:52:48 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered users/_register.html.erb (2.9ms)
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 121ms (Views: 109.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-06 17:57:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 118ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-06 17:57:45 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RiahccNMOlUTKNlOExioff0Vt8Ssb/dmTkeSNDUug8W4aKLXgwpjNXr/X+AqmilR7IsxduyZI73aGEAYG1fRcQ==", "session"=>{"email"=>"sgdsfg@dsggds.sdfg", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "sgdsfg@dsggds.sdfg"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 31ms (Views: 18.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-06 18:46:00 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 106ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:46:01 +0100
+Processing by WafflesController#index as HTML
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+Completed 500 Internal Server Error in 65ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `users_new_url' for #<WafflesController:0x007fa269408900>
+Did you mean?  users_url):
+  
+app/controllers/waffles_controller.rb:5:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.1ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:46:16 +0100
+Processing by WafflesController#index as HTML
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `user_new_url' for #<WafflesController:0x007fa2600ec608>
+Did you mean?  user_url):
+  
+app/controllers/waffles_controller.rb:5:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:46:17 +0100
+Processing by WafflesController#index as HTML
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `user_new_url' for #<WafflesController:0x007fa26006c638>
+Did you mean?  user_url):
+  
+app/controllers/waffles_controller.rb:5:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.7ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.3ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:46:27 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"users"} missing required keys: [:id]):
+  
+app/controllers/waffles_controller.rb:5:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.0ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:46:36 +0100
+Processing by WafflesController#index as HTML
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `user_new' for #<WafflesController:0x007fa26a009830>
+Did you mean?  user_url):
+  
+app/controllers/waffles_controller.rb:5:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.9ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:09 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffle" for 127.0.0.1 at 2017-03-06 18:50:16 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/waffle"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (3.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (17.4ms)
+Started GET "/" for 127.0.0.1 at 2017-03-06 18:50:18 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:19 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:20 +0100
+Processing by WafflesController#index as HTML
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:50:47 +0100
+Processing by WafflesController#index as HTML
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `waffles_edit_url' for #<WafflesController:0x007fa264014f60>
+Did you mean?  waffles_url):
+  
+app/controllers/waffles_controller.rb:5:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.8ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:56:59 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (66.6ms)
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 2.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_multiple_waffles_path' for #<#<Class:0x007fa26c3f06b8>:0x007fa26c402188>
+Did you mean?  destroy_multiple_users_path):
+    2: 
+    3: <%= link_to 'Nowy gofr', new_waffle_path %>
+    4: 
+    5: <%= form_tag destroy_multiple_waffles_path, method: :delete do %>
+    6:     <table class="table table-hover">
+    7:         <thead>
+    8:             <tr>
+  
+app/views/waffles/index.html.erb:5:in `_app_views_waffles_index_html_erb__1941184801445436502_70167788751400'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.4ms)
+Started GET "/waffles/edit" for 127.0.0.1 at 2017-03-06 18:57:23 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Waffle with 'id'=edit):
+  
+app/controllers/waffles_controller.rb:21:in `show'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.0ms)
+Started GET "/waffles/edit/1" for 127.0.0.1 at 2017-03-06 18:57:26 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/waffles/edit/1"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [22 times] (3.5ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.0ms)
+Started GET "/waffles/edit/2" for 127.0.0.1 at 2017-03-06 18:57:28 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/waffles/edit/2"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [22 times] (4.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+Started GET "/waffles/edit/3" for 127.0.0.1 at 2017-03-06 18:57:31 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/waffles/edit/3"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [22 times] (3.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.6ms)
+Started GET "/waffles/3" for 127.0.0.1 at 2017-03-06 18:57:46 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Waffle with 'id'=3):
+  
+app/controllers/waffles_controller.rb:21:in `show'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (11.7ms)
+Started GET "/waffles/2" for 127.0.0.1 at 2017-03-06 18:57:49 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Waffle with 'id'=2):
+  
+app/controllers/waffles_controller.rb:21:in `show'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (11.9ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:58:13 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (68.8ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_multiple_waffles_path' for #<#<Class:0x007fa26c3f06b8>:0x0000000385bee0>
+Did you mean?  destroy_multiple_users_path):
+    2: 
+    3: <%= link_to 'Nowy gofr', new_waffle_path %>
+    4: 
+    5: <%= form_tag destroy_multiple_waffles_path, method: :delete do %>
+    6:     <table class="table table-hover">
+    7:         <thead>
+    8:             <tr>
+  
+app/views/waffles/index.html.erb:5:in `_app_views_waffles_index_html_erb__1941184801445436502_29560940'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.2ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:58:36 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (66.3ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_multiple_waffles_path' for #<#<Class:0x007fa268108aa8>:0x007fa2680e2f38>
+Did you mean?  destroy_multiple_users_path):
+    2: 
+    3: <%= link_to 'Nowy gofr', new_waffle_path %>
+    4: 
+    5: <!--<%= form_tag destroy_multiple_waffles_path, method: :delete do %>-->
+    6:     <table class="table table-hover">
+    7:         <thead>
+    8:             <tr>
+  
+app/views/waffles/index.html.erb:5:in `_app_views_waffles_index_html_erb__1941184801445436502_70167753679140'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.1ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 18:59:41 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 20ms (Views: 13.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 19:15:41 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered waffles/_form.html.erb (5.1ms)
+  Rendered waffles/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 131ms (Views: 118.8ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 19:15:43 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ea2g3FCyvb/enQLj51ySIWPd4GQNFIacUnoVOyVX0byH46N6EPTk37dKhE3e3hMNckNm1k3iUkfGJccXCy6DCA==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.3ms)
+  Rendered waffles/_form.html.erb (5.9ms)
+  Rendered waffles/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 25ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 19:15:58 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RqpEWvE/xACMB90OKm88w1X8JCEs34iqw5c1N6xCN1a45Ef8sXmdYOXQW6AT7b3vRGKik2wpXHFXyOcbgjtl4g==", "waffle"=>{"name"=>"gfghfjgjh", "price"=>"7"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "gfghfjgjh"], ["price", 7.0], ["created_at", 2017-03-06 18:15:58 UTC], ["updated_at", 2017-03-06 18:15:58 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/980190964
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles/980190964" for 127.0.0.1 at 2017-03-06 19:15:58 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:17:05 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 134ms (Views: 123.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:17:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 116ms (Views: 104.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/waffles/980190962" for 127.0.0.1 at 2017-03-06 20:17:37 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"980190962"}
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 20:17:40 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (3.2ms)
+  Rendered waffles/_form.html.erb (23.4ms)
+  Rendered waffles/new.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 20:17:44 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5evAETCvhqUyZ1BvMbUjiakvnu1wpjAYkMhKBTtEUs4bpcO3cOnfxVuw1sEIN6KluLEYXzBQ5MMEl5gpFT0Aeg==", "waffle"=>{"name"=>"dhdfhdf", "price"=>"6"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "dhdfhdf"], ["price", 6.0], ["created_at", 2017-03-06 19:17:44 UTC], ["updated_at", 2017-03-06 19:17:44 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/980190964
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles/980190964" for 127.0.0.1 at 2017-03-06 20:17:44 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:17:45 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:17:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 111ms (Views: 100.6ms | ActiveRecord: 2.1ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:33:16 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 132ms (Views: 119.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:33:23 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (8.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 44ms (Views: 41.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 20:33:24 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:33:25 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:42:06 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 125ms (Views: 113.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:44:13 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:44:28 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:44:43 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:48:58 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 20:49:07 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:49:09 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.6ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:49:54 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:50:27 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 20:50:31 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 20:50:33 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 20:51:21 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 21:37:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (110.7ms)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 149ms (Views: 141.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:37:33 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (1.0ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (10.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 22.6ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 21:37:40 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered waffles/_form.html.erb (8.9ms)
+  Rendered waffles/new.html.erb within layouts/application (9.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 21:37:43 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PnZGl1W3mNW8qyb/4bPWEoKHmHdb+Qotwj400opD9c7AOEUxFfHBtdV8oFHYMVc+kxkexRsP3vZWYeb+pDqneg==", "waffle"=>{"name"=>"fghfgh", "price"=>"66"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "fghfgh"], ["price", 66.0], ["created_at", 2017-03-06 20:37:43 UTC], ["updated_at", 2017-03-06 20:37:43 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/980190963
+Completed 302 Found in 6ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/waffles/980190963" for 127.0.0.1 at 2017-03-06 21:37:43 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 18.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:37:44 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (3.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:37:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 114ms (Views: 102.4ms | ActiveRecord: 2.8ms)
+
+
+Started DELETE "/waffles/destroy_multiple" for 127.0.0.1 at 2017-03-06 21:37:57 +0100
+Processing by WafflesController#destroy_multiple as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vq1QbDw5wRAim3+Zk+ENTwQzixMOqJh52jDSzlagYySo41PKfH+YcEtM+TeqY4xjFa0NoU5eTKJObwDieNkxkA==", "waffles"=>["980190962", "298486374"], "commit"=>"Usuń zaznaczone"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 6ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:37:57 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:40:54 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 21:40:56 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:40:58 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.9ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 30.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:41:06 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 21:50:09 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 115ms (Views: 102.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:04:18 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:04:19 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:04:55 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:05:15 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:07:36 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:07:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (5.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:07:53 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.9ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:07:55 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:07:56 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.5ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:07:57 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:08:57 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (4.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:09:09 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:09:44 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:09:56 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:10:34 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-06 22:10:35 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (10.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-06 22:10:49 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/RmxLsOh28Lbe5tRdmXFghKLBCsPIQqEfWyi7qD+KikDV7KIg+eCorKsHf9P50SuAxWCmU/X3l/pM3DCjod4nQ==", "session"=>{"email"=>"ozh204@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ozh204@gmail.com"], ["LIMIT", 1]]
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:10:53 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:10:56 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:10:57 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/destroy_multiple" for 127.0.0.1 at 2017-03-06 22:11:00 +0100
+Processing by UsersController#destroy_multiple as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sATIQBa4/ed+pEMDRXemoAPvaOrFKTrQzczxz7vemd9OSsvmVv6khxdzxa189SeMEnHuWIXf7gtZkyPjlafLaw==", "users"=>["980190962", "298486374"], "commit"=>"Usuń zaznaczone"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190962], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 980190962]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 298486374], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 298486374]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 6ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:11:00 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-03-06 22:11:04 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.3ms)
+  Rendered users/_register.html.erb (1.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-03-06 22:11:23 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e1Xob/rSEDw58q/V22VGMdjBrgublffZvqxaeeseyaSFG+vJupRJXFAlKXvi58cdyV8oudtjIwIq84hVxWebEA==", "user"=>{"name"=>"orzech", "email"=>"ozh204@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "ozh204@gmail.com"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "orzech"], ["email", "ozh204@gmail.com"], ["created_at", 2017-03-06 21:11:23 UTC], ["updated_at", 2017-03-06 21:11:23 UTC], ["password_digest", "$2a$10$9D1VcYXw3VajcioU4ogJcOvBt.di9tS2DyhtDEYuZLr8q7tMnnhgK"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/980190963
+Completed 302 Found in 59ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:11:23 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:11:26 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-06 22:11:29 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-06 22:11:35 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i6a2AKtiP7FNU9+QSp67w4zg/b3xtrwauxBZX9G2qYh16LWm6yRm0SSEWT5zHDrvnX57D7FAaMEvT4tz/8/7PA==", "session"=>{"email"=>"ozh204@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ozh204@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/980190963
+Completed 302 Found in 50ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:11:35 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:11:41 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:11:46 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:11:52 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-03-06 22:12:01 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZwHw0IrdcBZ9NE5xgdfxqDnU+BnPSEDlDCad+8qeLK6ZT/N2ypspdhTjyN+4VXCEKEp+q4++lD6YeU/X5Od+Gg=="}
+No template found for SessionsController#destroy, rendering head :no_content
+Completed 204 No Content in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:13:00 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:13:16 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:19:10 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:19:15 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:19:18 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:19:22 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:19:23 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.5ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:19:24 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.6ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:19:26 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:20:01 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:20:02 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (6.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:20:06 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:20:07 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:20:14 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:20:53 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-03-06 22:21:02 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UssUy5rlnNGvXQGmLi7PjpVVGHt+VlFsebY50aoQ+FKshRdt2qPFscaKhwgXrE6ihMueyT6ghbft6ev9hGmq5g=="}
+No template found for SessionsController#destroy, rendering head :no_content
+Completed 204 No Content in 8ms (ActiveRecord: 0.0ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-03-06 22:21:06 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UssUy5rlnNGvXQGmLi7PjpVVGHt+VlFsebY50aoQ+FKshRdt2qPFscaKhwgXrE6ihMueyT6ghbft6ev9hGmq5g=="}
+No template found for SessionsController#destroy, rendering head :no_content
+Completed 204 No Content in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:21:54 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:22:39 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:22:54 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:23:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (3.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 26ms (Views: 23.2ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-03-06 22:23:49 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PLThLUINxT8NL+vTrHN6En18S54ESCkrOEtTMlhTpAfC+uKLAkucX2T4bX2V8fs+bOLNLES+/fCsFIEedir2sw=="}
+No template found for SessionsController#destroy, rendering head :no_content
+Completed 204 No Content in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:27:31 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (5.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 20ms (Views: 15.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 22:27:33 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 27ms (Views: 19.3ms | ActiveRecord: 2.2ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-03-06 22:27:36 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"eOjlGLOdYY544Q8/GA46ZRWbhysUOORGHVFSmgVztKqGpua+89s47hE2iZEhjLtJBAUBmVTOMJ2JDoC2KwrmHg=="}
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `log_out' for #<SessionsController:0x007f4f3c103e60>
+Did you mean?  logout_url):
+  
+app/controllers/sessions_controller.rb:18:in `destroy'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.1ms)
+Started GET "/logout" for 127.0.0.1 at 2017-03-06 22:28:27 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/logout"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered collection of /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (4.9ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.2ms)
+Started GET "/" for 127.0.0.1 at 2017-03-06 22:28:31 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 1.8ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2017-03-06 22:28:33 +0100
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YOQcSlkEJm5sQaayp2bAk7HhtWJf9VoZcO39NZOfCkueqh/sGUJ/DgWWIBye5EG/oH8z0B8DjsLksi8ZveZY/w=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 22:28:33 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-03-06 22:28:38 +0100
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2017-03-06 22:28:44 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cD//roHuoG20uarFI904Je9iR0PeUOvYpl1vxn26UGGOcfwIwaj5Dd1uLGsaX7kJ/vzB8Z6mPwMyAr3qU8MC1Q==", "session"=>{"email"=>"ozh204@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ozh204@gmail.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/980190963
+Completed 302 Found in 50ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:28:45 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:28:48 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2017-03-06 22:28:49 +0100
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (1.4ms)
+  Rendered users/_register.html.erb (6.8ms)
+  Rendered users/new.html.erb within layouts/application (8.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-03-06 22:29:08 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"C+RRmyJ9CDldFgA1hNZm9YG9Y64fr/a1EUM5xUGLyD31qlI9YjtRWTTBhpu9VOfZkCPlHF9ZIm6FHOvpb/KaiQ==", "user"=>{"name"=>"test", "email"=>"test@test.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "test@test.pl"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered users/_register.html.erb (1.5ms)
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+Completed 200 OK in 67ms (Views: 13.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-03-06 22:29:20 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NTWz9b+iz99t1ywbh5D0yEnunyrffS1lyhiyLNgW9LvLe7BT/+SWvwQAqrW+EnXkWHAZmJ+L+b5eR2AA9m+mDw==", "user"=>{"name"=>"test", "email"=>"test@test.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Zarejestruj"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER($1) LIMIT $2[0m  [["email", "test@test.pl"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "test"], ["email", "test@test.pl"], ["created_at", 2017-03-06 21:29:20 UTC], ["updated_at", 2017-03-06 21:29:20 UTC], ["password_digest", "$2a$10$zhS3YMffUiltpWXPMONw2..kHNTG0dbETUTgOuXUoK9/WXn2bpS2."]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/users/980190964
+Completed 302 Found in 51ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/users/980190964" for 127.0.0.1 at 2017-03-06 22:29:20 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:29:26 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:29:33 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/980190964" for 127.0.0.1 at 2017-03-06 22:29:36 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:29:39 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/980190963" for 127.0.0.1 at 2017-03-06 22:29:40 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190963], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:29:43 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (6.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/980190964" for 127.0.0.1 at 2017-03-06 22:29:43 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2017-03-06 22:29:44 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (2.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/980190964" for 127.0.0.1 at 2017-03-06 22:29:50 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/980190964" for 127.0.0.1 at 2017-03-06 22:29:52 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"980190964"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 980190964], ["LIMIT", 1]]
+Completed 200 OK in 37ms (Views: 33.5ms | ActiveRecord: 0.6ms)
+
+

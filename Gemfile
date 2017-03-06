@@ -40,3 +40,4 @@ gem 'puma', '~> 3.0'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'bcrypt', '3.1.11'
+gem 'rails-controller-testing'
