@@ -2,19 +2,7 @@
 
 <%= form_for @waffle do |w| %>
 
-    <% if @waffle.errors.any? %>
-        <div id="error_explanation">
-            <h2>
-                <%= pluralize(@waffle.errors.count, "error") %> prohibited
-                this article from being saved:
-            </h2>
-            <ul>
-                <% @waffle.errors.full_messages.each do |msg| %>
-                    <li><%= msg %></li>
-                <% end %>
-            </ul>
-        </div>
-    <% end %>
+    <%= render 'shared/error_messages' %>
 
     <p>
         <%= w.label :name, 'Nazwa' %><br>
@@ -27,7 +15,7 @@
     </p>
 
     <p>
-        <%= w.submit submitText %>
+        <%= w.submit submitText, class: "btn btn-primary" %>
     </p>
 
 <% end %>
