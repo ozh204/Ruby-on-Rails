@@ -13,3 +13,4 @@ Aplikacja umożliwia dodawanie, usuwanie, modyfikowanie oraz wyświetlanie gofr�
 Skorzystałem z następujących niestandardowych gemów:
 
 - bootstrap 4.0.0.alpha6 - szybka edycja widoków
+- bcrypt 3.1.11 - szyfrowanie hasła
