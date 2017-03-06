@@ -4860,3 +4860,2036 @@ Processing by WafflesController#index as HTML
 Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:40:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.9ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 211ms (Views: 199.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 12:40:43 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (1.2ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:40:45 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2" for 127.0.0.1 at 2017-03-06 12:40:52 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.5ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 18.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:41:06 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:41:08 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (18.7ms)
+  Rendered waffles/edit.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:44:30 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (7.5ms)
+  Rendered waffles/edit.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 127ms (Views: 112.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:44:40 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.9ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:45:02 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.8ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:45:30 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.9ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:45:33 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.4ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:45:34 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.5ms)
+  Rendered waffles/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:45:35 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.6ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:45:36 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:52:03 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:52:07 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:52:08 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.5ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (3.4ms)
+  Rendered waffles/edit.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 34ms (Views: 30.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:52:59 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:53:06 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:53:06 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:53:57 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.7ms)
+  Rendered waffles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:54:10 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.7ms)
+  Rendered waffles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:57:23 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.7ms)
+  Rendered waffles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 12:57:24 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.7ms)
+  Rendered waffles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 12:57:27 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:57:28 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.5ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (2.3ms)
+  Rendered waffles/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 12:58:16 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:00:49 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:01:33 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (57.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (58.5ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `submit' for #<#<Class:0x00000003ad7930>:0x007f1512392190>
+Did you mean?  submit_tag):
+    25:     </p>
+    26: 
+    27:     <p>
+    28:         <%= w.submit submit-text %>
+    29:     </p>
+    30: 
+    31: <% end %>
+  
+app/views/waffles/_form.html.erb:28:in `block in _app_views_waffles__form_html_erb__1861333737997780164_69864238363920'
+app/views/waffles/_form.html.erb:1:in `_app_views_waffles__form_html_erb__1861333737997780164_69864238363920'
+app/views/waffles/edit.html.erb:3:in `_app_views_waffles_edit_html_erb___3619440686477486591_69864238388660'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (16.8ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:01:53 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.9ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:02:13 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:02:29 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:02:30 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:03:00 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:03:01 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.5ms)
+  Rendered waffles/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:03:03 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:03:04 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.4ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (3.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:03:06 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/1/edit" for 127.0.0.1 at 2017-03-06 13:03:07 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:03:21 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:03:22 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:04:39 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:05:13 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:05:15 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:05:17 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/waffles/2" for 127.0.0.1 at 2017-03-06 13:06:40 +0100
+Processing by WafflesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dpBy6ofMtLJbaFcE9alXZ3rnr7MMebj6hQH9ES8GrSWI3nFMx4rt0jK/0arMK9ZLa3kpAUyPbCERXi89AX//kQ==", "waffle"=>{"name"=>"ok", "price"=>""}, "commit"=>"Edytuj", "id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "waffles" SET "name" = $1, "updated_at" = $2 WHERE "waffles"."id" = $3[0m  [["name", "ok"], ["updated_at", 2017-03-06 12:06:40 UTC], ["id", 2]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/2
+Completed 302 Found in 4ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/2" for 127.0.0.1 at 2017-03-06 13:06:40 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:06:42 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/1/edit" for 127.0.0.1 at 2017-03-06 13:06:46 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.8ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/waffles/1" for 127.0.0.1 at 2017-03-06 13:06:53 +0100
+Processing by WafflesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dz0icFe20d+iBlUR/UMXS0qX9+nN0GVjbee81eW0MnjxcyHWF/CIv8vR07/EwZZnWwlxW40msbj5uG75y81gzA==", "waffle"=>{"name"=>"Suchy", "price"=>"3.5"}, "commit"=>"Edytuj", "id"=>"1"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "waffles" SET "name" = $1, "price" = $2, "updated_at" = $3 WHERE "waffles"."id" = $4[0m  [["name", "Suchy"], ["price", 3.5], ["updated_at", 2017-03-06 12:06:53 UTC], ["id", 1]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/1
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/waffles/1" for 127.0.0.1 at 2017-03-06 13:06:53 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:06:55 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:07:45 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:07:50 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:14:32 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.0ms)
+
+
+  
+NoMethodError (undefined method `name=' for #<Class:0x007f1520f5aa28>
+Did you mean?  name):
+  
+app/models/waffle.rb:2:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:15:13 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `name=' for "Waffle":String):
+  
+app/models/waffle.rb:2:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.1ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:17:24 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `column_name=' for "Waffle":String):
+  
+app/models/waffle.rb:2:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.4ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:19:19 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 18ms (Views: 12.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:19:35 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:19:36 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:19:46 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.9ms)
+  Rendered waffles/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:21:02 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.3ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 20ms (Views: 11.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:21:09 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 19ms (Views: 11.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:23:13 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:26:11 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected '='
+  alias :'Nazwa'= :name=
+                 ^):
+  
+app/models/waffle.rb:2: syntax error, unexpected '='
+app/controllers/waffles_controller.rb:25:in `edit'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.3ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:26:25 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected '='
+  alias :'Nazwa'= :name
+                 ^):
+  
+app/models/waffle.rb:2: syntax error, unexpected '='
+app/controllers/waffles_controller.rb:25:in `edit'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:26:55 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected ','
+  alias :'Nazwa', :name
+                 ^):
+  
+app/models/waffle.rb:2: syntax error, unexpected ','
+app/controllers/waffles_controller.rb:25:in `edit'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.3ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:27:07 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected tSTRING_BEG
+  alias 'Nazwa', :name
+         ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected ',', expecting keyword_end
+  alias 'Nazwa', :name
+                ^):
+  
+app/models/waffle.rb:2: syntax error, unexpected tSTRING_BEG
+app/models/waffle.rb:2: syntax error, unexpected ',', expecting keyword_end
+app/controllers/waffles_controller.rb:25:in `edit'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.4ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:27:18 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected tSTRING_BEG
+  alias "Nazwa", :name
+         ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected ',', expecting keyword_end
+  alias "Nazwa", :name
+                ^):
+  
+app/models/waffle.rb:2: syntax error, unexpected tSTRING_BEG
+app/models/waffle.rb:2: syntax error, unexpected ',', expecting keyword_end
+app/controllers/waffles_controller.rb:25:in `edit'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.1ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:31:51 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 11.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:32:11 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 11.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:32:18 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 11.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:32:47 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (7.9ms)
+  Rendered waffles/edit.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `Nazwa_came_from_user?' for #<Waffle:0x007f152c06c140>
+Did you mean?  id_came_from_user?
+               name_came_from_user?):
+    18: 
+    19:     <p>
+    20:         <%= w.label :name %><br>
+    21:         <%= w.text_field :name %>
+    22:     </p>
+    23: 
+    24:     <p>
+  
+app/views/waffles/_form.html.erb:21:in `block in _app_views_waffles__form_html_erb__1861333737997780164_69864454760780'
+app/views/waffles/_form.html.erb:3:in `_app_views_waffles__form_html_erb__1861333737997780164_69864454760780'
+app/views/waffles/edit.html.erb:1:in `_app_views_waffles_edit_html_erb___3619440686477486591_69864454821540'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.0ms)
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 13:37:47 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21ms (Views: 11.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:37:50 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/2" for 127.0.0.1 at 2017-03-06 13:37:51 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:37:55 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:37:59 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:38:06 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 13:38:29 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:43:42 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:8: syntax error, unexpected keyword_end):
+  
+app/models/waffle.rb:8: syntax error, unexpected keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.1ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:43:59 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'MessageValidator'):
+  
+app/models/waffle.rb:2:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.4ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:45:49 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:5: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+  validates :price,
+             ^):
+  
+app/models/waffle.rb:5: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.0ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:46:19 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_sym' for {:presence=>true, :message=>"Nie może być puste"}:Hash
+Did you mean?  to_s
+               to_set):
+  
+app/models/waffle.rb:2:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.6ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:48:34 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:4: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+być większa niż 5 znaków'}
+                              ^):
+  
+app/models/waffle.rb:4: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:49:09 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:2: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+być większa niż 5 znaków'}
+                              ^):
+  
+app/models/waffle.rb:2: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.3ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:50:07 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:50:14 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:55:38 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:55:39 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:55:54 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:4: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+być większa niż 5 znaków'}
+                              ^):
+  
+app/models/waffle.rb:4: syntax error, unexpected tSTRING_DEND, expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.8ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:56:07 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'MessageValidator'):
+  
+app/models/waffle.rb:2:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.4ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:58:33 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:59:03 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected tLABEL
+      presence: message: 'Nie może być puste',
+                        ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+ssage: 'Nie może być puste',
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected tLABEL
+app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.5ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:59:31 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected =>, expecting keyword_end
+      presence: message => 'Nie może być puste',
+                          ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+age => 'Nie może być puste',
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected =>, expecting keyword_end
+app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.5ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 13:59:46 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected ':', expecting keyword_end
+      presence = message: 'Nie może być puste',
+                         ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+ssage: 'Nie może być puste',
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected ':', expecting keyword_end
+app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:00:16 +0100
+Processing by WafflesController#new as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected =>, expecting keyword_end
+      :presence => :message => 'Nie może być puste',
+                              ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+age => 'Nie może być puste',
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected =>, expecting keyword_end
+app/models/waffle.rb:3: syntax error, unexpected ',', expecting keyword_end
+app/controllers/waffles_controller.rb:8:in `new'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.4ms)
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:00:42 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.9ms)
+  Rendered waffles/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 10.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:01:01 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 12.3ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:01:04 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PIhSgdSP1UdeKRHc6D4ba8ZAXStYmnawU52Kf/42zP7CxlEnlMmMJzf+l3LRvJpH197bmRhsomvHwlhT0E+eSg==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.3ms)
+  Rendered waffles/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:01:30 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected tLABEL
+ :presence => {false: message: 'Nie może być puste' },
+                              ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected '}', expecting keyword_end
+sage: 'Nie może być puste' },
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected tLABEL
+app/models/waffle.rb:3: syntax error, unexpected '}', expecting keyword_end
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:01:35 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected ',', expecting =>
+      :presence => {false, message: 'Nie może być pust
+                          ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected '}', expecting keyword_end
+sage: 'Nie może być puste' },
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected ',', expecting =>
+app/models/waffle.rb:3: syntax error, unexpected '}', expecting keyword_end
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.3ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:01:43 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 18ms (Views: 13.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:01:44 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:01:45 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e16fE7UDkWWNUnYgcQe7a/eSew1NrOOhUgMUEO0YJM2FEJy19UXIBeSF8I5IhTpH5gz9vw1aN3rGXMY8w2F2eQ==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:02:23 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 22ms (Views: 16.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:02:25 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.8ms)
+  Rendered waffles/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:02:26 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PVzyqlkfUjE6RNVSOTHN0iifvgmIx67Mv25tm1couSrDEvEMGVkLUVOTU/wAs0z+OQE4u8gxehcrMb+3eVHrng==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:02:38 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected tSTRING_BEG, expecting '}'
+presence => { message: :name 'Nie może być pusta' },
+                              ^
+/home/orzech/Desktop/ruby/Ruby-on-Rails/app/models/waffle.rb:3: syntax error, unexpected '}', expecting keyword_end
+:name 'Nie może być pusta' },
+                              ^):
+  
+app/models/waffle.rb:3: syntax error, unexpected tSTRING_BEG, expecting '}'
+app/models/waffle.rb:3: syntax error, unexpected '}', expecting keyword_end
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.7ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:02:47 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `+' for :name:Symbol):
+  
+app/models/waffle.rb:3:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.3ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:02:53 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 18ms (Views: 13.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:02:55 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.8ms)
+  Rendered waffles/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:02:56 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DeEzjpRJKXnspRmoBmmptFpP/UxmTyM70L1RDwYB5VDzrzAo1A9wGYVynwY/6yiYS9F7/ia59+BE4oMjKHi35A==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.6ms)
+  Rendered waffles/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:03:40 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 18ms (Views: 12.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:03:41 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.9ms)
+  Rendered waffles/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:03:42 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sjhBCijx7C2dj0q9tcvyUYNcrI8NRHd4ibJphjvpWfZMdkKsaLe1TfRYzBOMSXN9ksIqPU2yo6Md7buqFZALQg==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:07:38 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms)
+
+
+  
+NameError (undefined local variable or method `blank' for #<Class:0x007f152134f958>
+Did you mean?  blank?):
+  
+app/models/waffle.rb:3:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:07:57 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 19ms (Views: 13.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:07:58 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:07:59 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u+9fX8gyfYL0GrbSo/v19NxxJKkpZvxtmKV5V7QW0mBFoVz5iHQk4p3NMHyaeXTYze+iG2mQKLYM+qt7mm+A1A==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:10:11 +0100
+Processing by WafflesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'GreaterThanValidator'):
+  
+app/models/waffle.rb:5:in `<class:Waffle>'
+app/models/waffle.rb:1:in `<top (required)>'
+app/controllers/waffles_controller.rb:4:in `index'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.3ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.4ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:11:10 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 23ms (Views: 17.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:11:12 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:11:15 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FO0s4btW1WYQAAAxMVNaYRZXK1+lkUcL7/9BKCurPofqoy9H+xCMBnnXhp8I0dtNB8mt7eVnk9B7oJMEBdJsMw==", "waffle"=>{"name"=>"", "price"=>"-1"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+I18n::InvalidLocaleData (can not load translations from /home/orzech/Desktop/ruby/Ruby-on-Rails/config/locales/en.yml: expects it to return a hash, but does not):
+  
+app/controllers/waffles_controller.rb:13:in `create'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.3ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:12:09 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 18ms (Views: 12.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:12:10 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.0ms)
+  Rendered waffles/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:12:13 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PO3+nPRxyZtVP1vVgr7KVbliu+FqaPR11z8eLIKkzl/Co/06tDeQ+zzo3Xu7PEt5qPw9UyqeIK5DYMwArN2c6w==", "waffle"=>{"name"=>"", "price"=>"-1"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:15:24 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/waffles/2/edit" for 127.0.0.1 at 2017-03-06 14:15:29 +0100
+Processing by WafflesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/waffles/2" for 127.0.0.1 at 2017-03-06 14:15:30 +0100
+Processing by WafflesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IvXLldyog/6XYzR5+xG3S8qHpSW1Y9AHoaNjiRN/eRHcu8gznO7anv60stfCkzZn2xkjl/WVBNw1/LGlPQYrpQ==", "waffle"=>{"name"=>"ok", "price"=>""}, "commit"=>"Edytuj", "id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/waffles/2" for 127.0.0.1 at 2017-03-06 14:15:35 +0100
+Processing by WafflesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+4BYnfsL8KUY4a1xOpb8u8PhoJVXZ3bmaOm7EPMNdJMFzls7u02pxXE2K98DFH2X0n8mJxeRoj38tmk83XQmJw==", "waffle"=>{"name"=>"ok", "price"=>"1"}, "commit"=>"Edytuj", "id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/edit.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/waffles/2" for 127.0.0.1 at 2017-03-06 14:15:42 +0100
+Processing by WafflesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OnFOapf9fSvBygBH4IkL1F5VWKEGLy3jmiosdPi13mrEP03M17skS6gdhunZC4r4T8veE0bZ+TgOdf5Y1syM3g==", "waffle"=>{"name"=>"z cukrem", "price"=>"1"}, "commit"=>"Edytuj", "id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "waffles" SET "name" = $1, "price" = $2, "updated_at" = $3 WHERE "waffles"."id" = $4[0m  [["name", "z cukrem"], ["price", 1.0], ["updated_at", 2017-03-06 13:15:42 UTC], ["id", 2]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/2
+Completed 302 Found in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/waffles/2" for 127.0.0.1 at 2017-03-06 14:15:42 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:15:45 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:26:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (64.5ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 2.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `destroy_multiple_waffles_index_path' for #<#<Class:0x007f75505740a0>:0x007f7550582c68>
+Did you mean?  destroy_multiple_waffles_path):
+    2: 
+    3: <%= link_to 'Nowy gofr', new_waffle_path %>
+    4: 
+    5: <%= form_tag destroy_multiple_waffles_index_path, method: :delete do %>
+    6:     <table class="table table-hover">
+    7:         <thead>
+    8:             <tr>
+  
+app/views/waffles/index.html.erb:5:in `_app_views_waffles_index_html_erb___650443534764769540_70070917900080'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.3ms)
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:27:09 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 114ms (Views: 104.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:27:34 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:27:41 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:27:47 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:27:54 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:28:11 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:30:44 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:31:44 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:32:24 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:32:42 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:34:46 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:36:50 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 18ms (Views: 13.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:36:53 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (4.0ms)
+  Rendered waffles/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:36:54 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bw5fd7AzYEDvpEuoeVrfycQPUGAmYdpDqvO3b5wmNPKRQFzR8HU5IIZzzQZA2F7l1ZHW0maXDpg+rGVDsl9mRg==", "waffle"=>{"name"=>"", "price"=>""}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:36:57 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CSvKuNB2CcxVasq4ARPnp/Ek4om3cux6vq4kvaxpe9r3ZckekDBQrDy9TBY4kWaL4LpkO/eEOKEq8faRghApbg==", "waffle"=>{"name"=>"dfgdsfgdh", "price"=>"4"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "dfgdsfgdh"], ["price", 4.0], ["created_at", 2017-03-06 13:36:57 UTC], ["updated_at", 2017-03-06 13:36:57 UTC]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/3
+Completed 302 Found in 7ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/waffles/3" for 127.0.0.1 at 2017-03-06 14:36:57 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:36:58 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:36:59 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:37:01 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lz17KxwBtN2AfTyh/eAp2uqpTZHVZmFNUzN/pCAA3fxpc3iNXEftvemqug/EYqj2+zfLI5WQtZbHbK2IDnmPSA==", "waffle"=>{"name"=>"erdfdfgdfc", "price"=>"66"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "erdfdfgdfc"], ["price", 66.0], ["created_at", 2017-03-06 13:37:01 UTC], ["updated_at", 2017-03-06 13:37:01 UTC]]
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/4
+Completed 302 Found in 5ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/waffles/4" for 127.0.0.1 at 2017-03-06 14:37:01 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mWaffle Load (0.1ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:37:02 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/waffles/destroy_multiple" for 127.0.0.1 at 2017-03-06 14:37:06 +0100
+Processing by WafflesController#destroy_multiple as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4TFu6OQtNMOlgHb9ldIPo+W3Z23b2YmQ6wbu8gRKNJsff21OpGtto8xX8FOsUI6P9Cnh35svXUt/WTzeKjNmLw==", "waffles"=>["3", "4"], "commit"=>"Usuń zaznaczone"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 3]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 4]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 9ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:37:06 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 14:38:01 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (0.8ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:38:03 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 21ms (Views: 15.8ms | ActiveRecord: 1.9ms)
+
+
+Started DELETE "/waffles/destroy_multiple" for 127.0.0.1 at 2017-03-06 14:38:08 +0100
+Processing by WafflesController#destroy_multiple as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AFNvmZQcLzTI8MTvkDNsP14kJ/BMCCQQOFs/W9OM+mP+HWw/1Fp2VKEnQkGpse0TT7qhQgz+8MusBO13/fWo1w==", "waffles"=>["2"], "commit"=>"Usuń zaznaczone"}
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 2]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 6ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:38:08 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:39:38 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.1ms)
+  Rendered waffles/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 14.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:39:41 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rHMDhLukuzzoql2nBG4/5/4IWyewu3AnFukKpUNcgTRSPQAi++LiXIF92wk97L7L75bdlfBNpPyCttiJbSXTgA==", "waffle"=>{"name"=>"dfgdfg", "price"=>"44"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "dfgdfg"], ["price", 44.0], ["created_at", 2017-03-06 13:39:41 UTC], ["updated_at", 2017-03-06 13:39:41 UTC]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/5
+Completed 302 Found in 4ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/waffles/5" for 127.0.0.1 at 2017-03-06 14:39:41 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:39:42 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:39:43 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.4ms)
+  Rendered waffles/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:39:45 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5GneC1kl29dzhUyjadomebgAMMYi4ynu3H40LRxtf90aJ92tGWOCtxpSyg1QWKdVqZ62dGIV/TVIIeYBMhQtaQ==", "waffle"=>{"name"=>"54636", "price"=>"sdsdfdsg"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:39:48 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y92r35PRPJgWgEEqHWQNak1xM+D3Tu6CJ76IkmLTvcU1k6h505dl+H9Xx4Qk5oxGXO+1Ure4Olmz4Vq+TKrvcQ==", "waffle"=>{"name"=>"54636", "price"=>"43657756"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "54636"], ["price", 43657756.0], ["created_at", 2017-03-06 13:39:48 UTC], ["updated_at", 2017-03-06 13:39:48 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/6
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/waffles/6" for 127.0.0.1 at 2017-03-06 14:39:48 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:39:49 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/waffles/destroy_multiple" for 127.0.0.1 at 2017-03-06 14:39:50 +0100
+Processing by WafflesController#destroy_multiple as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3y9YxnRm6+NtF/fhGXWc4yWnmNPcrh11g5wXTnWu5kIhYVtgNCCygwTAcU8g9x3PNDkeYZxYya4Xw8ViW9e09g==", "commit"=>"Usuń zaznaczone"}
+Completed 404 Not Found in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Waffle without an ID):
+  
+app/controllers/waffles_controller.rb:45:in `destroy_multiple'
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.9ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/orzech/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.2ms)
+Started DELETE "/waffles/6" for 127.0.0.1 at 2017-03-06 14:40:02 +0100
+Processing by WafflesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yefnBtiyopTaPYvzOohn2FjKbp8rweIsPlDbnNvceIQ3qeSgmPT79LPqDV0DCub0SVToLWs3NveqDwmw9aUqMA==", "id"=>"6"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 6]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 3ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:40:03 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles/new" for 127.0.0.1 at 2017-03-06 14:40:04 +0100
+Processing by WafflesController#new as HTML
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (0.7ms)
+  Rendered waffles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:40:06 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v29xAwLtlMzTnDbgT3aHP69AHvap/obnf5m9MX/4j1pBIXKlQqvNrLpLsE529AYTvt6YROkIUjzrxm8dUYHd7g==", "waffle"=>{"name"=>"fghfgh", "price"=>"fghgfh"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  Rendering waffles/new.html.erb within layouts/application
+  Rendered waffles/_form.html.erb (1.2ms)
+  Rendered waffles/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/waffles" for 127.0.0.1 at 2017-03-06 14:40:08 +0100
+Processing by WafflesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XD9hXFFgzWnnzgLwQ79JUSoFz7MP0ffzGFBI5ASPHwKicWL6ESaUCY4ZhF56Pch9O5tJAU8nIyiMD5rIKvZNtg==", "waffle"=>{"name"=>"fghfgh", "price"=>"45647"}, "commit"=>"Stwórz"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "waffles" ("name", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "fghfgh"], ["price", 45647.0], ["created_at", 2017-03-06 13:40:08 UTC], ["updated_at", 2017-03-06 13:40:08 UTC]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles/7
+Completed 302 Found in 3ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/waffles/7" for 127.0.0.1 at 2017-03-06 14:40:08 +0100
+Processing by WafflesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering waffles/show.html.erb within layouts/application
+  Rendered waffles/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:40:10 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.erb within layouts/application
+  Rendered welcome/index.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/waffle.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/application.self-120f3cf1cb67bea53c4a2a57336b34ca04b04b55a55c38cf76ce20a147e5eff9.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/application.self-245d3812a21065dec85fd9dbc273d9a4399a4dee802c048e71873de751c50f08.css?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/bootstrap.self-9acfc28c4d35348d353eb47afc72c287bc271ea4f7e8c9b05f2f9554ddc3f202.js?body=1" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/assets/lang-logo-975635515a3eba8a4dbe12956ddcce29610bf587eba6f72c1a66e6a4c97dce44.png" for 127.0.0.1 at 2017-03-06 14:41:05 +0100
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:44:26 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.3ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 19ms (Views: 13.5ms | ActiveRecord: 2.7ms)
+
+
+Started DELETE "/waffles/destroy_multiple" for 127.0.0.1 at 2017-03-06 14:44:28 +0100
+Processing by WafflesController#destroy_multiple as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3BFJDOC5YzixiVCEyef4rVodqNcSCRxO9W9p/R6hvZgiX0qqoP86WNhe1irwZXmBS4MuZVL/yJVhMLvRMNjvLA==", "waffles"=>["7"], "commit"=>"Usuń zaznaczone"}
+  [1m[36mWaffle Load (0.4ms)[0m  [1m[34mSELECT  "waffles".* FROM "waffles" WHERE "waffles"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "waffles" WHERE "waffles"."id" = $1[0m  [["id", 7]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/waffles
+Completed 302 Found in 3ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/waffles" for 127.0.0.1 at 2017-03-06 14:44:28 +0100
+Processing by WafflesController#index as HTML
+  Rendering waffles/index.html.erb within layouts/application
+  [1m[36mWaffle Load (0.2ms)[0m  [1m[34mSELECT "waffles".* FROM "waffles"[0m
+  Rendered waffles/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms)
+
+
