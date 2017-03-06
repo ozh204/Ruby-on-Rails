@@ -35,6 +35,17 @@ class WafflesController < ApplicationController
   end
 
   def destroy
+    Waffle.destroy(params[:id])
+
+    redirect_to waffles_path
+  end
+
+  def destroy_multiple
+
+    Waffle.destroy(params[:waffles])
+
+    redirect_to waffles_path
+
   end
 
   private

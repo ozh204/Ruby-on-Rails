@@ -1,3 +1,5 @@
+<h1><%= headerText %></h1>
+
 <%= form_for @waffle do |w| %>
 
     <% if @waffle.errors.any? %>
@@ -15,17 +17,17 @@
     <% end %>
 
     <p>
-        <%= w.label :name %><br>
+        <%= w.label :name, 'Nazwa' %><br>
         <%= w.text_field :name %>
     </p>
 
     <p>
-        <%= w.label :price %><br>
+        <%= w.label :price, 'Cena' %><br>
         <%= w.text_field :price %>
     </p>
 
     <p>
-        <%= w.submit %>
+        <%= w.submit submitText %>
     </p>
 
 <% end %>
