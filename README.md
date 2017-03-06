@@ -11,6 +11,5 @@ https://ozh204.herokuapp.com/
 
 Aplikacja umożliwia dodawanie, usuwanie, modyfikowanie oraz wyświetlanie gofrów.
 Skorzystałem z następujących niestandardowych gemów:
-- cos - użyto do czegoś
--
--
+
+- bootstrap 4.0.0.alpha6 - szybka edycja widoków
