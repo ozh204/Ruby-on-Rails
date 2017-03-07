@@ -18,3 +18,7 @@ Skorzystałem z następujących niestandardowych gemów:
 
 Email - test@test.pl
 Hasło - testtest
+
+image_tag
+responsywne obrazki
+sortowanie
