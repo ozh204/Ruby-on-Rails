@@ -21,3 +21,4 @@ Hasło - testtest
 
 image_tag
 responsywne obrazki
+sortowanie
