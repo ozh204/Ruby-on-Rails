@@ -15,3 +15,6 @@ Skorzystałem z następujących niestandardowych gemów:
 - bootstrap 4.0.0.alpha6 - szybka edycja widoków
 - bcrypt 3.1.11 - szyfrowanie hasła
 - rails-controller-testing - testowanie kontrolerów
+
+Email - test@test.pl
+Hasło - testtest
