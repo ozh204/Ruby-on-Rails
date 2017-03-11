@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     end
   end
 
+  delete '/removeImage/:id',  to: 'waffles#removeImage', as: 'removeImage'
+
   get  '/signup',  to: 'users#new'
   resources :users do
     collection do

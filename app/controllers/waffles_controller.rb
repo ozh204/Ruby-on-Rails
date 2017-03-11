@@ -41,16 +41,21 @@ class WafflesController < ApplicationController
   end
 
   def destroy_multiple
-
     Waffle.destroy(params[:waffles])
 
     redirect_to waffles_path
+  end
 
+  def removeImage
+    @waffle = Waffle.find(params[:id])
+    @waffle.remove_image!
+    @waffle.save
+    redirect_to @waffle
   end
 
   private
   def waffle_params
-    params.require(:waffle).permit(:name, :price)
+    params.require(:waffle).permit(:name, :price, :image)
   end
 
 end

@@ -7,8 +7,9 @@
         <thead>
             <tr>
                 <th class="col-md-1"></th>
+                <th class="col-md-1"></th>
                 <th class="col-md-6">Nazwa</th>
-                <th class="col-md-4">Cena</th>
+                <th class="col-md-3">Cena</th>
                 <th class="col-md-1" colspan="3"></th>
             </tr>
         </thead>
@@ -17,13 +18,15 @@
             <% @waffles.each do |w| %>
                 <tr>
                     <td><%= check_box_tag "waffles[]", w.id %></td>
+                    <td style="width:100px"><%= image_tag(w.image.small) %></td>
                     <td><%= w.name %></td>
                     <td><%= w.price %> zł</td>
                     <td><%= link_to 'Szczegóły', waffle_path(w) %></td>
                     <td><%= link_to 'Edytuj', edit_waffle_path(w) %></td>
                     <td><%= link_to 'Usuń', waffle_path(w),
                             method: :delete,
-                            data: { confirm: 'Czy napewno chcesz usunąć tego gofra?' } %></td>
+                            data: { confirm: 'Czy napewno chcesz usunąć tego gofra?' } %>
+                    </td>
                 </tr>
             <% end %>
         </tbody>

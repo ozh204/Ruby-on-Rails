@@ -7,4 +7,6 @@ class Waffle < ApplicationRecord
       presence: true,
       numericality: { greater_than: 0 }
 
+  mount_uploader :image, WaffleImageUploader
+
 end
