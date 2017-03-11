@@ -44,5 +44,5 @@ gem 'rails-controller-testing'
 gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 gem "fog-google"
-gem "google-api-client", ">= 0.6.2", "< 0.9"
-gem "mime-types"
+# gem "google-api-client", ">= 0.6.2", "< 0.9"
+# gem "mime-types"
