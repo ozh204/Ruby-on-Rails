@@ -15,9 +15,23 @@
     </p>
 
     <p>
-        <%= w.submit submitText, class: "btn btn-primary" %>
+        <label>Zdjęcie gofra</label>
+        <br>
+        <%= image_tag(@waffle.image_url) if @waffle.image? %>
+        <%= w.file_field :image %>
+        <%= w.hidden_field :image_cache %>
+        <br>
+        <%= if @waffle.image? && @waffle.id?
+            link_to 'Usuń obrazek', removeImage_path(@waffle),
+                    method: :delete,
+            data: { confirm: 'Czy napewno chcesz usunąć ten obrazek?' }
+            end
+            %>
     </p>
 
+    <p>
+        <%= w.submit submitText, class: "btn btn-primary" %>
+    </p>
 <% end %>
 
 <%= link_to 'Wróć', waffles_path %>

@@ -8,5 +8,9 @@
     <%= @waffle.price %>
 </p>
 
+<p>
+    <%= image_tag(@waffle.image) %>
+</p>
+
 <%= link_to 'Wróć', waffles_path %>
 <%= link_to 'Edytuj', edit_waffle_path(@waffle) %>
