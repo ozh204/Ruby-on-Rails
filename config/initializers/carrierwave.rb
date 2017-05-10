@@ -1,9 +1,8 @@
 CarrierWave.configure do |config|
-  config.fog_provider = 'fog/google'                        # required
-  config.fog_credentials = {
-      provider:                         'Google',
-      google_storage_access_key_id:     '2916aae6cc888bb30fd81ebf5bca137b3cf9bef5',
-      google_storage_secret_access_key: ''
-  }
-  config.fog_directory = 'name_of_directory'
+  config.dropbox_app_key = 'botvtfsw661fyx5'
+  config.dropbox_app_secret = 'afqwgjxuqvkcqar'
+  config.dropbox_access_token = 'kv0dn4d1awi8uzpi'
+  config.dropbox_access_token_secret = 'x6wf0tspldxkbz4'
+  config.dropbox_user_id = 670116817
+  config.dropbox_access_type = "app_folder"
 end
