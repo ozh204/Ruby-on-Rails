@@ -18,5 +18,6 @@ Skorzystałem z następujących niestandardowych gemów:
 - carrierwave 1.0.0             - wrzucanie plików
 - mini_magick 4.6.1             - skalowanie obrazów
 - neat            		- Grid framework
+
 Email - test@test.pl
 Hasło - testtest
