@@ -12,7 +12,7 @@ seed_waffles = [
   [9, 'Ze śmietaną, owocami i cukrem pudrem'],
   [10, 'Ze śmietaną, owocami i polewą']
 ]
-#  Zmienilem kolejnosc price i name
-seed_waffles.each do |price, name|
+
+seed_waffles.each do |name, price|
   Waffle.create( name: name, price: price )
 end

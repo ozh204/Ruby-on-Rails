@@ -1,5 +1,5 @@
 <h1><%= headerText %></h1>
-<!--Dodalem discount check_box-->
+
 <%= form_for @waffle do |w| %>
 
     <%= render 'shared/error_messages' %>
@@ -13,10 +13,7 @@
         <%= w.label :price, 'Cena' %><br>
         <%= w.text_field :price %>
     </p>
-    <p>
-      <%= w.label :discount, 'Przecena' %><br>
-      <%= w.check_box :discount %>
-    </p>
+
     <p>
         <label>Zdjęcie gofra</label>
         <br>
