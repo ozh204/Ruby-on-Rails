@@ -1,7 +1,9 @@
 class WafflesController < ApplicationController
-
+  # Sprawdzam czy gofer jest na przcenie i dodaje go do odpowiedniej listy
   def index
-    @waffles = Waffle.all
+    #@waffles = Waffle.all
+    @waffles = Waffle.where.not(discount:true)
+    @wafflesPromo = Waffle.where(discount:true)
   end
 
   def new
@@ -55,7 +57,8 @@ class WafflesController < ApplicationController
 
   private
   def waffle_params
-    params.require(:waffle).permit(:name, :price, :image)
+    #params.require(:waffle).permit(:name, :price, :image)
+    params.require(:waffle).permit(:name, :price, :image,:discount)
   end
 
 end

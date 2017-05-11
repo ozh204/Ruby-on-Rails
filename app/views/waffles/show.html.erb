@@ -7,6 +7,10 @@
     <strong>Cena:</strong>
     <%= @waffle.price %>
 </p>
+<p>
+  <strong>Przecena:</strong>
+  <%= @waffle.discount? %>
+</p>
 
 <p>
     <%= image_tag(@waffle.image) %>
