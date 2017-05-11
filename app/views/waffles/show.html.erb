@@ -7,6 +7,11 @@
     <strong>Cena:</strong>
     <%= @waffle.price %>
 </p>
+<!--Wyswietlenie czy gofer jest przeceniony-->
+<p>
+  <strong>Przecena:</strong>
+  <%= @waffle.discount? %>
+</p>
 
 <p>
     <%= image_tag(@waffle.image) %>
