@@ -13,6 +13,6 @@ seed_waffles = [
   [10, 'Ze śmietaną, owocami i polewą']
 ]
 
-seed_waffles.each do |name, price|
+seed_waffles.each do |price, name|
   Waffle.create( name: name, price: price )
 end

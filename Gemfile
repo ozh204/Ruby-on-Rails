@@ -14,7 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
-
+gem 'tzinfo-data'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -41,7 +41,6 @@ gem 'puma', '~> 3.0'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'bcrypt', '3.1.11'
 gem 'rails-controller-testing'
-#gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 gem 'carrierwave-dropbox'
 gem "neat"
