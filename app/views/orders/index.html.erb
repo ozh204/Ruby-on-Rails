@@ -6,7 +6,8 @@
   <thead>
     <tr>
       <th>Cena</th>
-      <th>Date</th>
+      <th>Data</th>
+      <th>Sklep</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,7 +17,8 @@
       <tr>
         <td><%= order.price %></td>
         <td><%= order.date %></td>
-        <td><%= link_to 'Szczegóły', order %></td>
+          <td><%= Shop.find(order.shop_id).nazwa %></td>
+          <td><%= link_to 'Szczegóły', order %></td>
         <td><%= link_to 'Edytuj', edit_order_path(order) %></td>
         <td><%= link_to 'Usuń', order, method: :delete, data: { confirm: 'Jesteś pewny?' } %></td>
       </tr>

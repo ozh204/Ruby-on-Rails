@@ -35,6 +35,7 @@ class OrdersController < ApplicationController
     }
 
     @order.price = price
+    @order.shop_id =  params[:order][:shop_id]
 
     respond_to do |format|
       if @order.save
@@ -65,6 +66,8 @@ class OrdersController < ApplicationController
 
       price += quantity[0].to_i * Waffle.find(id).price
     }
+
+    @order.shop_id =  params[:order][:shop_id]
 
     respond_to do |format|
       if @order.update(price: price)
