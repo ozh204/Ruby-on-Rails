@@ -8,5 +8,7 @@ class Waffle < ApplicationRecord
       numericality: { greater_than: 0 }
 
   mount_uploader :image, WaffleImageUploader
-  has_and_belongs_to_many :orders
+
+  has_many :orders, through: :orderwaffles
+  has_many :orderwaffles
 end

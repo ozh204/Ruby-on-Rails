@@ -44,3 +44,8 @@ gem 'rails-controller-testing'
 gem "mini_magick"
 gem 'carrierwave-dropbox'
 gem "neat"
+
+group :development do
+  gem "better_errors"
+end
+gem "binding_of_caller"

@@ -2,6 +2,12 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+  resources :orders do
+    collection do
+      delete 'destroy_multiple'
+    end
+  end
+
   resources :waffles do
     collection do
       delete 'destroy_multiple'
