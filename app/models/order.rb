@@ -1,3 +1,4 @@
 class Order < ApplicationRecord
-  has_and_belongs_to_many :waffles
+  has_many :waffles, through: :orderwaffles
+  has_many :orderwaffles
 end

@@ -10,23 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170511173504) do
+ActiveRecord::Schema.define(version: 20170513114527) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "order_waffles", force: :cascade do |t|
+    t.integer "quantity"
+    t.integer "waffle_id"
+    t.integer "order_id"
+    t.index ["order_id"], name: "index_order_waffles_on_order_id", using: :btree
+    t.index ["waffle_id"], name: "index_order_waffles_on_waffle_id", using: :btree
+  end
 
   create_table "orders", force: :cascade do |t|
     t.float    "price"
     t.date     "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "orders_waffles", id: false, force: :cascade do |t|
-    t.integer "order_id"
-    t.integer "waffle_id"
-    t.index ["order_id"], name: "index_orders_waffles_on_order_id", using: :btree
-    t.index ["waffle_id"], name: "index_orders_waffles_on_waffle_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|

@@ -1,7 +1,7 @@
 class WafflesController < ApplicationController
-  # Sprawdzam czy gofer jest na przcenie i dodaje go do odpowiedniej listy
+  before_action :set_waffle, only: [:show, :edit, :update, :destroy, :removeImage]
+
   def index
-    #@waffles = Waffle.all
     @waffles = Waffle.where.not(discount:true)
     @wafflesPromo = Waffle.where(discount:true)
   end
@@ -20,15 +20,12 @@ class WafflesController < ApplicationController
   end
 
   def show
-    @waffle = Waffle.find(params[:id])
   end
 
   def edit
-    @waffle = Waffle.find(params[:id])
   end
-  def update
-    @waffle = Waffle.find(params[:id])
 
+  def update
     if @waffle.update(waffle_params)
       redirect_to @waffle
     else
@@ -37,8 +34,6 @@ class WafflesController < ApplicationController
   end
 
   def destroy
-    Waffle.destroy(params[:id])
-
     redirect_to waffles_path
   end
 
@@ -49,13 +44,17 @@ class WafflesController < ApplicationController
   end
 
   def removeImage
-    @waffle = Waffle.find(params[:id])
     @waffle.remove_image!
     @waffle.save
     redirect_to @waffle
   end
 
   private
+
+  def set_waffle
+    @waffle = Waffle.find(params[:id])
+  end
+
   def waffle_params
     #params.require(:waffle).permit(:name, :price, :image)
     params.require(:waffle).permit(:name, :price, :image,:discount)
